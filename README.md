@@ -1,0 +1,1 @@
+# tsc-default-compiler-options
