@@ -40,7 +40,7 @@ config                             | config                                    |
 allowUnreachableCode               | allowUnusedLabels                         | alwaysStrict
 exactOptionalPropertyTypes         | noFallthroughCasesInSwitch                | noImplicitAny
 noImplicitOverride                 | noImplicitReturns                         | noImplicitThis
-noPropertyAccessFromIndexSignature | noUncheckedIndexedAccess                  | noUnusedLocals
+noUnusedLocals                     | noUncheckedIndexedAccess                  | noPropertyAccessFromIndexSignature
 noUnusedParameters                 | strict                                    | strictBindCallApply
 strictFunctionTypes                | strictNullChecks                          | strictPropertyInitialization
 useUnknownInCatchVariables         | allowArbitraryExtensions                  | allowImportingTsExtensions
@@ -62,8 +62,8 @@ out                                | suppressExcessPropertyErrors              |
 emitDecoratorMetadata              | experimentalDecorators                    | jsx
 lib                                | noLib                                     | diagnostics
 explainFiles                       | extendedDiagnostics                       | listEmittedFiles
-listFiles                          | traceResolution                           | composite
-disableReferencedProjectLoad       | disableSolutionSearching                  | disableSourceOfProjectReferenceRedirect
+listFiles                          | traceResolution                           | disableReferencedProjectLoad
+composite                          | disableSolutionSearching                  | disableSourceOfProjectReferenceRedirect
 noErrorTruncation                  | preserveWatchOutput                       | skipDefaultLibCheck
 skipLibCheck                       | watchFile                                 | assumeChangesOnlyAffectDirectDependencies
 watchDirectory                     | fallbackPolling                           | synchronousWatchDirectory
