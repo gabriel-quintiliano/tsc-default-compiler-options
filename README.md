@@ -1,8 +1,7 @@
 # TSC Default Compiler Options
-
-### Compiler configurations which have a default value
-
-config                          | default value \(acording to https://www.typescriptlang.org/tsconfig)
+These are the default compiler options for when you run `tsc <source-file>.ts` according to according to the official documentation at https://www.typescriptlang.org/tsconfig
+<br /><br />
+config                          | default value
 --------------------------------|---------------------------------------------------------------
 files                           | false
 extends                         | false
