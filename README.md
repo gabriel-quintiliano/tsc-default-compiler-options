@@ -1,4 +1,4 @@
-# tsc-default-compiler-options
+# TSC Default Compiler Options
 
 ### Compiler configurations which have a default value
 
